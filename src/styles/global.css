@@ -1,0 +1,172 @@
+/* ============================= */
+/*  GLOBAL RESET */
+/* ============================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #f1f5f9;
+  min-height: 100vh;
+}
+
+/* ============================= */
+/*  AUTH PAGES */
+/* ============================= */
+
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-card {
+  width: 380px;
+  padding: 35px;
+  background: rgba(30, 41, 59, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+.auth-title {
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+
+.auth-subtitle {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.auth-input,
+.auth-select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  background: #334155;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.auth-button:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+}
+
+.auth-error {
+  color: #ef4444;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* ============================= */
+/*  DASHBOARD */
+/* ============================= */
+
+.dashboard-page {
+  padding: 40px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-title {
+  font-size: 24px;
+}
+
+.dashboard-user {
+  display: flex;
+  align-items: center;
+}
+
+.logout-button {
+  padding: 8px 14px;
+  background: #e73e3e;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.logout-button:hover {
+  background: #dc2626;
+}
+
+/* ============================= */
+/*  CONVERTER CARD */
+/* ============================= */
+
+.converter-card {
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  background: rgba(30, 41, 59, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+.converter-label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.converter-input,
+.converter-select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  background: #334155;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.swap-button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: #6366f1;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.swap-button:hover {
+  background: #4f46e5;
+}
+
+.converter-result {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
